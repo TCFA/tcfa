@@ -4,8 +4,8 @@
 <p>Korkeakoulujenkkifutiksessa kaudella 2013 TCFA:ta edustaa kaksi joukkuetta, jotka koostuvat Tampereen teknillisen yliopiston, Tampereen yliopiston ja Tampereen ammattikorkeakoulun opiskelijoista.</p>
 <p>Kaudella 2013 TCFA järjestää Tampereella 12-13.4 amerikkalaisen jalkapallon Opiskelijoiden SM-kisat.</p>
 </div>
-<h2><?php echo __('Uutiset')?></h2>
 <div id="news-container">
+	<h2><?php echo __('Uutiset')?></h2>
 <?php
 
 foreach( $news as $item ) {

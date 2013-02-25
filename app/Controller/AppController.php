@@ -53,6 +53,7 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow();
+		$this->Auth->deny(array('create', 'edit'));
 		$this->set('title_for_layout', 'Tampere Collegiate Football Association');
 		$this->set('user', $this->Auth->user);
 	}

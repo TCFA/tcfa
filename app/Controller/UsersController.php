@@ -25,9 +25,6 @@ class UsersController extends AppController {
 		if ( $this->request->is('post') ) {
 			if ( $this->Auth->login() ) {
 				$this->Session->setFlash('Olet kirjautunut sisään');
-				
-				debug($this->Auth->user);
-				exit;
 				$this->redirect($this->Auth->redirect());
 			} else {
 				$this->Session->setFlash('Kirjautuminen ei onnistunut');

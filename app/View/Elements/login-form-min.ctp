@@ -1,6 +1,5 @@
-<div class='login-form'>
+<div class='login-form-min'>
 <?php
-$user = $this->Session->read('Auth.User');
 if ( empty($user) ) {
 	echo $this->Form->create('User', array('controller' => 'user', 'action' => 'login',
 		'inputDefaults' => array(
@@ -8,8 +7,8 @@ if ( empty($user) ) {
 		)
 	)
 );
-echo $this->Form->input('username', array('label' => __('Käyttäjätunnus')));
-echo $this->Form->input('password', array('label' => __('Salasana')));
+echo $this->Form->input('username', array('size' => 8, 'label' => false));
+echo $this->Form->input('password', array('size' => 5, 'label' => false));
 echo $this->Form->end('Kirjaudu');
 
 } else {

@@ -241,11 +241,14 @@ footer > * {
 	font-size: 12px;
 	margin-bottom: 1em;
 }
-.login-form,
-.login-form input,
-.login-form form,
-.login-form .submit {
+.login-form-min,
+.login-form-min input,
+.login-form-min form,
+.login-form-min .submit {
 	display: inline;
+}
+.login-form input {
+	display: block;
 }
 
 .frontpage-text p {

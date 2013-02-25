@@ -1,5 +1,5 @@
 <h1><?php echo __('TCFA ry') ?></h1>
-<div id="about">
+<div class="text-content" id="about">
 <p>
 <em>Tampere Collegiate Football Association ry</em> eli TCFA ry on syksyllä 2011 perustettu urheiluseura 
 ja rekisteröity yhdistys, joka pyrkii edistämään tamperelaisten

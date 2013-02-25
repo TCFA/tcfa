@@ -1,6 +1,6 @@
 <h1><?php echo __('Joukkueet') ?></h1>
 <div class="teams-container">
-	<div class="teams-text">
+	<div class="text-content">
 		<p>Kaudella 2013 TCFA osallistuu <a href="http://www.sajl.fi/sarjat/korkeakoulujenkkifutis/">SAJL:n korkeakoulusarjaan</a>
 			kahden joukkueen voimin.</p>
 		<p><strong class="team-name"><?php echo $this->Html->link('TCFA Titans', array('action' => 'titans')); ?></strong> koostuu Tampereen yliopiston ja Tampereen ammattikorkeakoulun opiskelijoista.</p>

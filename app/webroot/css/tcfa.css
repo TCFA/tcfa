@@ -11,24 +11,33 @@ h2,
 h3,
 p,
 span {
-	color: black;
+	color: #111111;
 }
 p, span {
 	font-size: 13px;
 }
 h1 {
-	font-family: Times New Roman, Georgia, serif;
+	font-family: Georgia, Times New Roman, serif;
 	margin: 0.4em 0em;
 	text-align: center;
+	letter-spacing: 1px;
+	text-shadow: 0.3px 0.5px #666666;
 }
 h2 {
-	font-family: Arial, Georgia, serif;
+	font-family: OpenSans, Georgia, serif;
 	margin: 0.3em 0.2em;
+	letter-spacing: 1px;
+	text-shadow: 0.3px 0.5px #666666;
 }
 h3 {
 	font-family: Georgia, sans-serif;
 	margin-bottom: 0.4em;
 	margin-left: 0.2em;
+}
+p {
+	padding: 0.3em;
+	text-align: left;
+	font-family: Verdana, Arial, sans-serif, OpenSansBold, Georgia;
 }
 a {
 	text-decoration: none;
@@ -37,11 +46,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-p {
-	padding: 0.3em;
-	text-align: left;
-	font-family: Verdana, Arial, sans-serif, OpenSansBold, Georgia;
-}
+
 p.indent {
 	text-indent: 0.5em;
 }
@@ -96,7 +101,8 @@ p.indent {
 	background-color: white;
 }
 .sidebar-content h3 {
-	color: white;
+	color: #111111;
+	text-shadow: 0.3px 0.5px #666666;
 }
 #footer {
 	margin: 0;
@@ -202,24 +208,34 @@ footer > * {
 #news-container {
 	padding: 2em;
 }
+.news-row {
+	padding: 0em 0.2em;
+	margin: 0.4em 0.2em;
+}
 .news-row div {
 	display: inline-block;
 }
 .news-subject {
 	font-variant: small-caps;
+	font-size: 16px;
+}
+.news-date {
+	font-size: 15px;
 }
 .news-subject a:link {
 	text-decoration: none;
-	background-color: grey;
+	background-color: #555555;
 	color: white;
+	padding: 0em 0.3em;
 }
 .news-subject a:visited {
 	text-decoration: none;
 	color: white;
 }
 .news-subject a:hover {
+	color: red;
 	text-decoration: underline;
-	text-shadow: 1px 1px;
+	background-color: rgba(153,153,153,0.9);
 }
 
 .writer {

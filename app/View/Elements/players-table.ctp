@@ -5,13 +5,13 @@
 		<th><?php echo __('Koulu') ?></th>
 		<th><?php echo __('Numero') ?></th>
 		<th><?php echo __('Pelipaikka') ?></th>
+		<th><?php echo __('Kaudet') ?></th>
 		<!--<th><?php echo __('Synt. vuosi') ?></th>
 		<th><?php echo __('Koulu') ?></th>
 		<th><?php echo __('Numero') ?></th>
 		<th><?php echo __('Pelipaikka') ?></th>
 		<th><?php echo __('Pituus') ?></th>
 		<th><?php echo __('Paino') ?></th>
-		<th><?php echo __('Kaudet') ?></th>
 		<th><?php echo __('Muut seurat') ?></th>-->
 	</tr>
 	<?php
@@ -26,9 +26,10 @@
 				echo '<td>' . (!empty($player['Player']['position']) ? $player['Player']['position'] : '-') . '</td>';
 				//echo '<td>' . (!empty($player['Player']['height']) ? $player['Player']['height'] : '-') . '</td>';
 				//echo '<td>' . (!empty($player['Player']['weight']) ? $player['Player']['weight'] : '-') . '</td>';
-				//echo '<td>' . (!empty($player['Player']['seasons']) ? $player['Player']['seasons'] : '-') . '</td>';
+				echo '<td>' . (!empty($player['Player']['seasons']) ? $player['Player']['seasons'] : 'R') . '</td>';
 				//echo '<td>' . (!empty($player['Player']['former_teams']) ? $player['Player']['former_teams'] : '-') . '</td>';
 				echo '</tr>';
+				
 			}
 		} else {
 			echo '<tr><td class="empty" colspan="5">' . __('Ei pelaajia') . '</td></tr>';

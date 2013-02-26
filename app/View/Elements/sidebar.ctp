@@ -13,6 +13,7 @@
 		)
 	);
 	?>
+	<hr />
 	<h3>Facebook</h3>
 	<div class="fb-like-box" data-href="https://www.facebook.com/pages/TCFA/203466619720554"
 	data-width="203" data-height="400" data-show-faces="true" data-stream="false" data-header="true"></div>

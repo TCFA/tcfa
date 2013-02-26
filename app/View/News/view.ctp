@@ -1,8 +1,7 @@
 <?php
 echo '<div class="back-link">';
-echo $this->Html->link(__('Takaisin'), $referer);
+echo '&larr;' . $this->Html->link(__('Takaisin'), $referer);
 echo '</div>';
-echo '<span class="news-heading">Uutinen</span>';
 echo '<h1>'. $news['News']['subject'].'</h1>';
 echo '<div class="text-content">';
 echo '<div class="news-info">';

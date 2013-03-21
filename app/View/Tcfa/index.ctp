@@ -21,5 +21,8 @@ foreach( $news as $item ) {
 	echo '</span>'. "\n";
 	echo '</div>'. "\n";
 }
+if ( AuthComponent::user('id') ) { 
+	echo $this->Html->link(__('Uusi uutinen'), array('controller' => 'news', 'action' => 'add'));
+}
 ?>
 </div>

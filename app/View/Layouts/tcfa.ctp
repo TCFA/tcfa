@@ -57,5 +57,5 @@
 			<?php echo $this->element('footer') ?>
 		<div>
 	</div>
-
+<?php // echo $this->element('sql_dump'); ?>
 <div>

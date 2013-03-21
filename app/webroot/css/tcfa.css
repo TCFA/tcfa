@@ -261,6 +261,8 @@ footer > * {
 	font-size: 12px;
 	margin-bottom: 1em;
 }
+
+/* LOGIN FORM */
 .login-form-min,
 .login-form-min input,
 .login-form-min form,
@@ -309,4 +311,24 @@ table.players-table th, table.players-table td {
 }
 table.players-table th {
 	
+}
+
+/* Navibar login information */
+.logged-in, .login-link {
+	float: right;
+	display: inline-block;
+	background-color: #660000;
+	padding: 8px;
+
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+.logged-in a, .login-link a {
+	color: black;
+}
+span#username {
+	color: white;
+	font-size: 15px;
+	margin: 0px 1em;
 }

@@ -29,6 +29,7 @@
 	Router::connect('/about', array('controller' => 'tcfa', 'action' => 'about'));
 	Router::connect('/sport', array('controller' => 'tcfa', 'action' => 'sport'));
 	Router::connect('/contact', array('controller' => 'tcfa', 'action' => 'contact'));
+	Router::connect('/live', array('controller' => 'tcfa', 'action' => 'live'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

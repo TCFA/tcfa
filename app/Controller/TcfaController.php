@@ -27,4 +27,8 @@ class TcfaController extends AppController {
 	public function contact() {
 
 	}
+    
+    public function live() {
+
+	}
 }

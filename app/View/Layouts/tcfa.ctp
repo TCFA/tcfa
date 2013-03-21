@@ -10,6 +10,7 @@
 
 		echo $this->Html->css('1140');
 		echo $this->Html->css('tcfa');
+		echo $this->Html->script('jquery-1.9.1.min');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

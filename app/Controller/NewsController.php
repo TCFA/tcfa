@@ -7,4 +7,16 @@ class NewsController extends AppController {
 		$this->set('news', $news);
 		$this->set('referer', $this->referer());
 	}
+
+	public function add() {
+		$this->helpers = array('TinyMCE.TinyMCE');
+		if ( $this->request->is('post') ) {
+			if ( $this->News->save($this->request->data) ) {
+				$this->Session->setFlash(__('Uutinen tallennettu'));
+				$this->redirect('/');
+			} else {
+				$this->Session->setFlash(__('Tallennus epäonnistui'));
+			}
+		}
+	}
 }

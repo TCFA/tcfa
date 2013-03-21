@@ -181,3 +181,4 @@ CakeLog::config('error', array(
 ));
 
 //CakePlugin::load('DebugKit');
+CakePlugin::load('TinyMCE');

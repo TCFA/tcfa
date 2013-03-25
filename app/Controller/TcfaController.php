@@ -31,4 +31,8 @@ class TcfaController extends AppController {
     public function live() {
 
 	}
+
+	public function osm() {
+		
+	}
 }

@@ -9,6 +9,7 @@
 <li><?php echo $this->Html->link(__('TCFA ry'), array('controller' => 'tcfa', 'action' => 'about')) ?></li>
 <li><?php echo $this->Html->link(__('Laji'), array('controller' => 'tcfa', 'action' => 'sport')) ?></li>
 <li><?php echo $this->Html->link(__('Yhteystiedot'), array('controller' => 'tcfa', 'action' => 'contact')) ?></li>
+<li><?php echo $this->Html->link(__('OSM 2013'), array('controller' => 'tcfa', 'action' => 'osm')) ?></li>
 </ul>
 </div>
 	<div class="fourcol last">

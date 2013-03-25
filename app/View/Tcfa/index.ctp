@@ -2,7 +2,8 @@
 <div class="text-content">
 <p><strong>Tampere Collegiate Football Association</strong> on tamperelaisten korkeakoulujen amerikkalaisen jalkapallon parissa toimiva yhdistys.</p>
 <p>Korkeakoulujenkkifutiksessa kaudella 2013 TCFA:ta edustaa kaksi joukkuetta, jotka koostuvat Tampereen teknillisen yliopiston, Tampereen yliopiston ja Tampereen ammattikorkeakoulun opiskelijoista.</p>
-<p>Kaudella 2013 TCFA järjestää Tampereella 12-13.4 amerikkalaisen jalkapallon Opiskelijoiden SM-kisat.</p>
+<p>Kaudella 2013 TCFA järjestää Tampereella 12-13.4 amerikkalaisen jalkapallon 
+	<?php echo $this->Html->link('Opiskelijoiden SM-kisat', array('action' => 'osm')) ?>.</p>
 </div>
 <div id="news-container">
 	<h2><?php echo __('Uutiset')?></h2>

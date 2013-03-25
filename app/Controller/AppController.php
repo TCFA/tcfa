@@ -42,9 +42,9 @@ class AppController extends Controller {
 				'Form'
 			),
 			'loginAction' => array('controller' => 'users', 'action' => 'login'),
-            'loginRedirect' => array('controller' => 'tcfa', 'action' => 'index'),
-            'logoutRedirect' => array('controller' => 'tcfa', 'action' => 'index'),
-            'authError' => 'Pääsy vaatii kirjautumisen'
+			'loginRedirect' => array('controller' => 'tcfa', 'action' => 'index'),
+			'logoutRedirect' => array('controller' => 'tcfa', 'action' => 'index'),
+			'authError' => 'Pääsy vaatii kirjautumisen'
 		)
 	);
 
@@ -56,6 +56,8 @@ class AppController extends Controller {
 		$this->Auth->deny(array('create', 'edit', 'add'));
 		$this->set('title_for_layout', 'Tampere Collegiate Football Association');
 		$this->set('user', $this->Auth->user);
+
+		
 	}
 	
 }

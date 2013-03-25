@@ -18,14 +18,15 @@ p, span {
 }
 h1 {
 	font-family: Georgia, Times New Roman, serif;
-	margin: 0.4em 0em;
+	margin: 0.5em 0em;
 	text-align: center;
 	letter-spacing: 1px;
 	text-shadow: 0.3px 0.5px #666666;
 }
 h2 {
 	font-family: OpenSans, Georgia, serif;
-	margin: 0.3em 0em;
+	margin-top: 0.5em;
+	margin-bottom: 0.3em;
 	letter-spacing: 1px;
 	text-shadow: 0.3px 0.5px #666666;
 }
@@ -58,8 +59,11 @@ p.indent {
 	!border-radius: 5px;
 }
 #main-content {
-	box-shadow: -5px 0px 10px 1px #333333;
-	border-radius: 3px;
+	-webkit-box-shadow: -5px 0px 10px #333333, 5px 0px 10px #333333;
+	-moz-box-shadow: -5px 0px 10px #333333, 5px 0px 10px #333333;
+	box-shadow: -5px 0px 10px #333333, 5px 0px 10px #333333;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	background-color: rgba(153,153,153,0.9);
 
 }
@@ -107,13 +111,13 @@ p.indent {
 }
 #footer {
 	margin: 0;
-	padding: 0.5em;
+	padding: 0.5em 0em;
 	clear: both;
 	text-align: center;
 	background-color: #660000;
 	border-top: 1px solid black;
-	box-shadow: -5px 0px 10px 1px #333333;
-	border-radius: 1px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 #footer address {
